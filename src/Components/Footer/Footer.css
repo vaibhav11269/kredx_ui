@@ -1,0 +1,10 @@
+.footer{
+    background-color: black;
+    color:white;
+}
+
+.footer-img {
+    width: 120px;
+    height: auto;
+    object-fit: fill;
+}

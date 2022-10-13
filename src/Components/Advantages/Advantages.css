@@ -1,0 +1,34 @@
+.intro-para {
+  font-size: x-large;
+  font-stretch: condensed;
+  font-family: "Lato";
+  line-height: 1.5rem;
+  font-weight: 300;
+}
+
+.advantage-header {
+  width: 90%;
+  font-family: "Lato";
+  line-height: 1.5rem;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.advantage-para {
+  width: 90%;
+  font-family: "Lato";
+  line-height: 1.5rem;
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 768px) {
+  .advantage-header {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advantage-header {
+    width: 75%;
+  }
+}
